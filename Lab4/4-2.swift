@@ -12,7 +12,7 @@ for i in chessField{
     if let coords = chessField[i.key]{
         print("\(coords!.alpha):\(coords!.num)")
     }else{
-        print("figure is ")
+        print("figure is killed.")
     }    
 }
 
@@ -25,4 +25,4 @@ func checkFigure(f: String){
 }
 
 checkFigure(f: "Black King")
-checkFigure(f: "White Queen")
+checkFigure(f: "Black Horse")

@@ -1,4 +1,5 @@
-var myIntArray = Array(5...125)
+//var myIntArray = Array(5...125)
+var myIntArray: [Int] = Array(5...125)
 for _ in 0...4{
     myIntArray.removeFirst()
 }
